@@ -67,5 +67,6 @@ A typical Cypress project usually looks like this
  Optional: npm install -D cypress@12.11.0
  
  Run Cypress:  .\node_modules\.bin\cypress open
- Optional: npm run cy:open              
-           npm run cy:run
+ 
+ Optional runners: npm run cy:open              
+                   npm run cy:run
