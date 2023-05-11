@@ -24,8 +24,14 @@ A typical Cypress project usually looks like this
     |   \---example.json
     |      
     +---integration
-    |   |  
-    |   \---NativeExecutionRunner-CrowdarAcademy2023.spec.js
+    |   |
+    |   |---01-Login-CrowdarAcademy2023.cy.js
+    |   |
+    |   |---02-Sliders-CrowdarAcademy2023.spec.js
+    |   |
+    |   |---03-Arrivals-CrowdarAcademy2023.spec.js
+    |   |
+    |   \---04-HomePage-Arrivals-AddToBasket-CrowdarAcademy2023.spec.js
     |      
     |       
     +---support
@@ -57,8 +63,9 @@ A typical Cypress project usually looks like this
  snap install node --classic
  
  npm install cypress --save-dev
-
  
  Optional: npm install -D cypress@12.11.0
  
  Run Cypress:  .\node_modules\.bin\cypress open
+ Optional: npm run cy:open              
+           npm run cy:run
