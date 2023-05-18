@@ -38,7 +38,7 @@ module.exports = defineConfig({
     pageLoadTimeout: 60000,
     platform: 'win32',
     port: null,
-    projectId: 'xkig7u',
+    projectId: 'pjumnt',
     redirectionLimit: 20,
     reporter: 'spec',
     reporterOptions: null,

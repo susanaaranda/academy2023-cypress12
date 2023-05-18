@@ -9,13 +9,13 @@ describe("Login Crowdar Cypress Demo", () => {
 
         cy.visit("https://practice.automationtesting.in/my-account/");
 
-        var username = "academyCypress_usuarioNormal@crowdaronline.com";
-        var pass = "Crowdar.2023!";
-
+        var username = "susyw6@hotmail.com";
+        var pass = "Bienvenido*456";
+              
         cy.get('#username').type(username);
         cy.get('#password').type(pass+"{enter}");
                 
-        cy.get('strong').should('contain.text', 'academyCypress_');
+        cy.get('strong').should('contain.text', 'susyw6');
         
 
     });
